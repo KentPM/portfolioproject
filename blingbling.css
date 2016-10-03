@@ -13,3 +13,12 @@ a {
   min-height: 200px;
   background-color: grey;
 }
+img {
+  width:200px;
+  height: 200px;
+position: relative;
+right: auto;
+top: 10%;
+left: 70%;
+  border-radius: 50% 0 50% 0;
+}
