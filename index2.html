@@ -7,30 +7,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="blingbling.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto|Lobster|Passion+One|Pacifico|Orbitron|Righteous|Satisfy">
     <script type="text/javascript" src="mainscript.js"></script>
 
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-59524407-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
+        ga('create', 'UA-59524407-3', 'auto');
+        ga('send', 'pageview');
+    </script>
 </head>
 
 <body>
-    <div class="topNav">
-        <h1>pK</h1>
-        <ul class="list-inline">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
 
-    </div>
     <!-- TODO: fix this shit -->
     <!--  <div class=""
     <h1>Patrick Kent</h1>
@@ -43,13 +42,90 @@
     <img src="photos/stormyseas.jpg" alt="dat storm" />
   </div>-->
 
-    <div class="container-fluid main">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="container-fluid">
+        <div class="row topNav">
+
+
+            <div class="col-xs-12 col-md-6">
+                <h1>pK</h1>
+              </div>
+              <div class="col-xs-12 col-md-6">
+
+
+                <ul class="list-inline text-right">
+                    <li><a href="#"><h4><i class="fa fa-user"></i> About</h4></a></li>
+                    <li>
+                        <h4>|</h4></li>
+                    <li><a href="#"><h4>Portfolio</h4></a></li>
+                    <li>
+                        <h4>|</h4></li>
+                    <li> <a href="#"><h4> <i class="fa fa-bullhorn"></i> Contact</h4></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Social Media buttons -->
+        <div class="container-fluid main">
+
+
+        <div class="row">
+            <div class="col-xs-6">
+                <p>
+                    Aspiring Full Stack Developer, with a long history of tinkering with web technology. Started learning HTML in the days of geocities.com, there may have been an over use of &#60;blink&#62;. I have spent the last decade and half following another passion,
+                    emergency pre hospital medicine. Working thousands of hours serving the citizens of the Portland Metro area.
+                </p>
+
+            </div>
+            <div class="col-xs-2">
+
+            </div>
+            <div class="col-xs-4">
+              <img class="seas" src="photos/stormyseas.jpg" alt="" />
+
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <a href="https://github.io/KentPM" target="blank" data-toggle="tooltip" title="KentPM @ GitHub">
+                <button class="btn">
+      <i class="fa fa-github"> </i> GitHub
+    </button>
+            </a>
+
+            <a href="https://plus.google.com/u/0/+PatrickKent" target="blank" data-toggle="tooltip" title="Follow Me @G+">
+                <button class="btn">
+      <i class="fa fa-google-plus">
+  </i> Google+
+    </button>
+            </a>
+
+            <a href="http://codepen.io/kentpm/" target="blank" data-toggle="tooltip" title="Kentpm @ codepen">
+                <button class="btn">
+      <i class="fa fa-codepen">
+  </i> Codepen
+    </button>
+            </a>
+
+            <a href="http://www.freecodecamp.com/kentpm" target="blank" data-toggle="tooltip" title="See my progress at Freecodecamp">
+                <button class="btn">
+      <i class="fa fa-fire">
+  </i> FreeCodeCamp
+    </button>
+            </a>
+
+            <a href="https://www.linkedin.com/in/patrick-kent-b8610796" target="blank" data-toggle="tooltip" title="inlinked!">
+                <button class="btn">
+      <i class="fa fa-linkedin">
+  </i> linkedin
+    </button>
+            </a>
+
+        </div>
+
+        <!-- end of social media-->
     </div>
-    <footer>Copyright (c) 2016 Patrick Kent All Rights Reserved.</footer>
+
+    </div>
 </body>
 
 </html>

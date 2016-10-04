@@ -2,11 +2,19 @@
     position: static;
 }
 
-a {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+a:link {
+    text-decoration: none;
+    color:#C77222;
+}
+
+a:visited {
+    text-decoration: none;
+    color:#C77222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #A2CB92;
 }
 
 .text {
@@ -21,18 +29,23 @@ img {
 }
 
 body {
-    background-color: grey;
+    background-color: #5F644E;
+    font-family: architects daughter;
+    color:#C77222;
 }
 
 .topNav {
-    background-color: red;
+    background-color: #6B0003;
     position: fixed;
-    width: 100%
+
 }
 
 .main {
-    background-image: url("photos/stormyseas.jpg");
 
 
-    top: 50px;
+position: relative;
+    top: 130px;
+}
+.seas{
+  border-radius: 50%;
 }
