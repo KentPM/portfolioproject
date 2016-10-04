@@ -1,37 +1,38 @@
 .bgstat {
-  position: static;
+    position: static;
 }
+
 a {
-
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
+
 .text {
-  max-width: 600px;
-  min-height: 200px;
-  background-color: grey;
+    max-width: 600px;
+    min-height: 200px;
+    background-color: grey;
 }
+
 img {
-width: 150px;
-height:150px;
+    width: 150px;
+    height: 150px;
 }
+
 body {
-  background-color:grey;
-
+    background-color: grey;
 }
-.topNav {
-  background-color:red;
 
-  position: fixed;
-  width: 100%
+.topNav {
+    background-color: red;
+    position: fixed;
+    width: 100%
 }
 
 .main {
-  background-image: url("photos/stormyseas.jpg");
-  position:fixed;
-  width: 100%;
-  top: 200px;
+    background-image: url("photos/stormyseas.jpg");
 
+
+    top: 50px;
 }
