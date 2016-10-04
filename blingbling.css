@@ -2,7 +2,7 @@
   position: static;
 }
 a {
-  position: absolute;
+
   top: 0;
   left: 0;
   bottom: 0;
@@ -14,11 +14,24 @@ a {
   background-color: grey;
 }
 img {
-  width:200px;
-  height: 200px;
-position: relative;
-right: auto;
-top: 10%;
-left: 70%;
-  border-radius: 50% 0 50% 0;
+width: 150px;
+height:150px;
+}
+body {
+  background-color:grey;
+
+}
+.topNav {
+  background-color:red;
+
+  position: fixed;
+  width: 100%
+}
+
+.main {
+  background-image: url("photos/stormyseas.jpg");
+  position:fixed;
+  width: 100%;
+  top: 200px;
+
 }
