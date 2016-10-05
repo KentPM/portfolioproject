@@ -1,1 +1,2 @@
-var x ="stuff";
+var x ="stuf"
+document.getElementById("").addEventListener("click");
