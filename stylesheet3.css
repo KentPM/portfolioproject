@@ -13,16 +13,16 @@ body {
     margin-left:0;
     top:0;
     left:0;
-    
+
     height: 120px;
-    
-    
+
+
 }
 
 .upperNav ul {
     float: right;
     padding-right: 1em;
-    
+
 }
 .upperNav h1 {
     font-size: 5em;
@@ -70,11 +70,11 @@ ul {
     margin-top: 150px;
     margin-left: 10px;
     margin-right: 10px;
-    
-    
+
+
 }
 .abouts {
-    
+
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
@@ -98,5 +98,5 @@ ul {
   width:20%;
     max-width: 300px;
     border-radius: 50%;
-    
+
 }
