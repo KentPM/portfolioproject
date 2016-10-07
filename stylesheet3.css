@@ -100,3 +100,8 @@ ul {
     border-radius: 50%;
 
 }
+.circle {
+  width:50px;
+  border-radius: 50%;
+  background color:red;
+}
