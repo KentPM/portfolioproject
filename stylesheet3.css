@@ -101,7 +101,9 @@ ul {
 
 }
 .circle {
-  width:50px;
+  width:200px;
   border-radius: 50%;
   background color:red;
+z-index: 1;
+  bottom:0;
 }
