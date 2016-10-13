@@ -57,9 +57,14 @@ a.anchor {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     margin-bottom: 0;
     padding: 0;
     z-index: -1;
+=======
+    padding: 0px;
+    min-height: 10000px;
+>>>>>>> origin/master
 }
 
 .about {
