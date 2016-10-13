@@ -1,32 +1,94 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #A2AEBB;
+  background-color: #A2AEBB;
 }
 
-
-
 .title {
+    position: fixed;
+    top: 0;
     background-color: #1C3144;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
     font-family: lobster;
-    text-align: center;
-    font-size: 4em;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 2px 2px 2px 2px black;
-    color:#D41717
+    color: #D41717;
 }
+
+.mainTitle {
+    font-size: 4em;
+}
+
+.nav {
+    float: right;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: red;
+}
+
+.nav a:visited {
+    color: #D41717;
+}
+
+.nav a:link {
+    color: #D41717;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -125px;
+    visibility: hidden;
+
+}
+
 .mainbox {
+    position: relative;
+    min-height: 5000px;
+    top: 105px;
     background-color: gray;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px;
-    min-height: 1000px;
+    margin-bottom: 0;
+    padding: 0;
+    z-index: -1;
 }
+
 .about {
+    display: block;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: justify;
+    min-height: 500px;
+    margin-bottom: 0;
+}
+
+.folio {
+    display: block;
+    margin-top: 0;
+    font-family: sans-serif;
     background-color: green;
     text-align: justify;
+    min-height: 500px;
+}
+
+.contac {
+    margin-top: 0;
+    font-family: sans-serif;
+    background-color: red;
+    text-align: justify;
+    min-height: 500px;
+}
+
+footer {
+    text-align: center;
+    font-family: lobster;
 }
