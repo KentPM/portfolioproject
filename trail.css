@@ -9,7 +9,7 @@ body {
     margin-right: auto;
     background-color: gray;
     min-width: 10px;
-    min-height: 10000px;
+    min-height: 2000px;
     z-index: -1;
     top: 150px;
 }
@@ -23,13 +23,27 @@ body {
     margin: 0;
     text-align: center;
 }
-
+.mainTitle{
+  float:left;
+}
+.nav{
+  float: right;
+}
+.nav link{
+  text-decoration: none;
+}
 .contentS {
     min-height: 500px;
     width: auto;
 }
 .one {
   background-color: yellow;
+}
+.one img{
+  min-width: 150px;
+  float: right;
+  border-radius: 10px;
+  width: 25%;
 }
 .two{
   background-color: green;

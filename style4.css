@@ -14,7 +14,7 @@ body {
     margin-top: 0;
     font-family: lobster;
     padding: 5px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 1px black;
     color: #D41717;
 }
 
@@ -58,6 +58,7 @@ a.anchor {
     min-height: 2000px;
     padding: 0;
     z-index: -1;
+    float: none;
 }
 
 .stuffBox {
