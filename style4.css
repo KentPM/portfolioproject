@@ -58,7 +58,7 @@ a.anchor {
     min-height: 2000px;
     padding: 0;
     z-index: -1;
-    float: none;
+
 }
 
 .stuffBox {
@@ -68,14 +68,19 @@ a.anchor {
 
 .about {
     background-color: white;
+    clear: both;
 }
 
 .folio {
     background-color: green;
+    clear: both;
+
 }
 
 .contac {
     background-color: red;
+    clear: both;
+
 }
 
 footer {
