@@ -1,16 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    background-color: #B3DEC1;
-=======
+    /*background-color: #B3DEC1;*/
     background-color: #A2AEBB;
->>>>>>> origin/master
 }
 
 .title {
     position: fixed;
-    z-index: 5;
     top: 0;
     background-color: #1C3144;
     width: 100%;
@@ -57,7 +53,6 @@ body {
 
 .mainbox {
     position: relative;
-<<<<<<< HEAD
     overflow: auto;
     top: 105px;
     background-color: gray;
@@ -65,9 +60,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
-    padding: 0;
-
+    min-height: 2000px;
 }
 
 .infoBox {
@@ -79,7 +72,6 @@ body {
 .about {
     font-family: sans-serif;
     text-align: justify;
-    margin-bottom: 0;
 }
 
 .aboutPhoto {
@@ -112,7 +104,6 @@ body {
     font-family: sans-serif;
     text-align: justify;
     min-height: 500px;
-=======
     top: 105px;
     background-color: gray;
     width: 95%;
@@ -120,11 +111,11 @@ body {
     margin-right: auto;
     overflow: auto;
     padding: 0;
-
 }
+
 a {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .stuffBox {
@@ -139,21 +130,14 @@ a {
 }
 
 .folio {
-    background-color: green;
     clear: both;
-}
-
-.contac {
-    background-color: red;
-    clear: both;
-    position: relative;
-    z-index: 1;
->>>>>>> origin/master
 }
 
 .subTitle {
     font-family: lobster;
     text-align: center;
+    color: red;
+    background-color: white;
 }
 
 footer {
@@ -161,10 +145,4 @@ footer {
     font-family: lobster;
 }
 
-.things {
-
-}
-.buz {
-  background-color: green;
-
-}
+.buz {}
