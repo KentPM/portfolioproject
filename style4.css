@@ -6,6 +6,7 @@ body {
 
 .title {
     position: fixed;
+    z-index: 5;
     top: 0;
     background-color: #1C3144;
     width: 100%;
@@ -42,7 +43,7 @@ body {
     color: #D41717;
 }
 
-a.anchor {
+.anchor {
     display: block;
     position: relative;
     top: -125px;
@@ -60,20 +61,21 @@ a.anchor {
     margin-right: auto;
     margin-bottom: 0;
     padding: 0;
-    z-index: -1;
+
 }
+
 .infoBox {
-  overflow: auto;
-  min-height: 500px;
-  background-color:#FEFFFE;
+    overflow: auto;
+    min-height: 500px;
+    background-color: #FEFFFE;
 }
 
 .about {
-    display: block;
     font-family: sans-serif;
     text-align: justify;
     margin-bottom: 0;
-    overflow: auto;}
+}
+
 .aboutPhoto {
     display: block;
     width: 33%;
@@ -87,38 +89,39 @@ a.anchor {
     margin-top: 0;
     font-family: sans-serif;
     text-align: justify;
-    min-height: 500px;
 }
-.screenShot{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  min-width: 100px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+
+.screenShot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .contac {
     margin-top: 0;
     font-family: sans-serif;
     text-align: justify;
     min-height: 500px;
 }
-.subTitle{
-  font-family: lobster;
-  text-align: center;
+
+.subTitle {
+    font-family: lobster;
+    text-align: center;
 }
-.btn {
-  border-radius: 20px;
-  padding:10px;
-  background-color: gray;
-  display: inline-block;
-  z-index: 10;
-}
-.btn:hover {
-  background-color: white;
-}
+
 footer {
     text-align: center;
     font-family: lobster;
+}
+
+.things {
+
+}
+.buz {
+  background-color: green;
+
 }
