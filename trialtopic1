@@ -1,0 +1,20 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>Shitters N Stuff</title>
+    <link rel="stylesheet" href="trail.css" media="screen" title="no title">
+</head>
+
+<body>
+    <div class="header">
+
+    </div>
+    <div class="mainBody">
+        <div class="contentS"></div>
+        <div class="contentS"></div>
+        <div class="contentS"></div>
+    </div>
+</body>
+
+</html>
