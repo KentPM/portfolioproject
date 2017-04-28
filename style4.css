@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     /*background-color: #B3DEC1;*/
-    background-color: #A2AEBB;
+    background-color: #06070E;
 }
 
 .title {
@@ -33,17 +33,20 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: red;
+
 }
 
 .nav a:visited {
-    color: #D41717;
+    color: #FAA916;
 }
 
 .nav a:link {
-    color: #D41717;
+    color: #FAA916;
 }
-
+.nav a:hover{
+  color:#D41717;
+  text-decoration: underline;
+}
 .anchor {
     display: block;
     position: relative;
@@ -76,9 +79,9 @@ body {
 
 .aboutPhoto {
     display: block;
-    width: 33%;
+    width: 35%;
     float: right;
-    border-radius: 5px;
+    border-radius: 50%;
     box-shadow: 1px 1px 1px 1px;
     margin-right: 5px;
 }
@@ -88,15 +91,17 @@ body {
     font-family: sans-serif;
     text-align: justify;
 }
-
+.folio:nth-child(even){
+  float: left;
+}
+.folio:nth-child(odd){
+  float:right;
+}
 .screenShot {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    display: flex;
+    width: 45%;
     min-width: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
 }
 
 .contac {

@@ -1,0 +1,27 @@
+body {
+  background-color: gray;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  min-height: 2000px;
+  background-color: green;
+  width: 100%;
+}
+
+.heading{
+  position: fixed;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100px;
+  z-index: 2;
+  top:0;
+  background-color: red;
+}
+.blockContent{
+  min-height: 50px;
+  min-width: 200px;
+  flex-grow: 1;
+}
